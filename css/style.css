@@ -326,8 +326,29 @@ body {
 .portfolio__top {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 100px;
+}
+
+.portfolio__filter-btn {
+    margin-right: 40px;
+}
+
+.portfolio__btn {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0 4px 5px;
+    margin-right: 25px;
+}
+
+.mixitup-control-active {
+    border-bottom: 2px solid #fcbb08;
 }
 
 .portfolio__content {
@@ -338,11 +359,41 @@ body {
 
 .portfolio__item {
     margin-bottom: 22px;
+    position: relative;
 }
+
+.portfolio__item-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4C4949;
+    border: 12px solid #666363;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .3s;
+}
+
+
+.portfolio__item:hover .portfolio__item-link {
+    opacity: 1;
+}
+    
+
 
 .portfolio__item img {
     width: 100%;
 }
+
 
 .portfolio_add {
     display: block;
