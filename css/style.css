@@ -293,27 +293,28 @@ body {
     color: #777;
 }
 
-.magic{
+.magic {
     background-color: #F6F8FA;
     background-image: url('../images/magic-bg.jpg');
     background-repeat: no-repeat;
     background-size: 45%;
-    background-position: left 70% ;
-    
-    
+    background-position: left 70%;
+
+
 }
-.magic__inner{
+
+.magic__inner {
     max-width: 470px;
     margin-left: auto;
     padding: 100px 0 190px;
 
 }
 
-.magic__title{
+.magic__title {
     margin-bottom: 67px;
 
 }
 
-.magic__text p{
+.magic__text p {
     margin-bottom: 25px;
 }
