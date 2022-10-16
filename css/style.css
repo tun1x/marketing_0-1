@@ -618,12 +618,68 @@ ul.pricing__item {
     color: #242121;
 }
 
-.clients{
+.clients {
     padding: 70px 0 95px;
 }
 
-.clients__list{
+.clients__list {
     display: flex;
     justify-content: space-between;
     align-items: center
+}
+
+.connection {
+    /* padding: 145px 0 160px; */
+    padding: 140px 0 160px;
+    background-image: url('../images/map.jpg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right 70%;
+}
+
+.connection__title {
+    margin-bottom: 80px;
+}
+
+.form {
+    max-width: 570px;
+}
+
+.form input,
+.form textarea {
+    border: none;
+    border-bottom: 2px solid #373A39;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 3.70909px;
+    color: #b8b8b8;
+    text-transform: uppercase;
+}
+
+.form textarea {
+    min-height: 130px;
+    resize: none;
+}
+
+.form button {
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 17px 70px 15px;
+    background-color: #242121;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
 }
