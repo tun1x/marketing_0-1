@@ -683,3 +683,72 @@ ul.pricing__item {
     cursor: pointer;
     margin-top: 40px;
 }
+
+.footer__top{
+    padding: 110px 10px 60px;
+    background-color: #333;
+    text-align: center;
+}
+
+.footer__logo{
+    display: inline-block;
+    /* padding: 0 35px 34px; */
+    margin-bottom: 70px;
+}
+
+ul.footer__social{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+
+}
+
+.footer__social-list{
+    padding: 0 15px;
+}
+
+.footer__social-link{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
+
+.footer__contact{
+    line-height: 32px;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.footer__contact a{
+    display: block;
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+
+.go-top{
+    display: inline-block;
+}
+
+
+.footer__copy{
+    background-color: #2A2C2B;
+    text-align: center;
+    padding: 43px 0 31px;
+}
+
+.footer__copy p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #CCCCCC;
+ 
+}
