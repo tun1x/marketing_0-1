@@ -102,7 +102,6 @@ body {
 
 .menu__list {
     display: flex;
-
 }
 
 
@@ -206,7 +205,6 @@ body {
     margin-top: 10px;
     margin-right: 30px;
     flex: none;
-
 }
 
 .expertise__info-item {
@@ -254,8 +252,6 @@ body {
     padding-left: 85px;
     position: relative;
     padding: 50px;
-
-
 }
 
 .expertise__item::before {
@@ -265,7 +261,6 @@ body {
     left: -20px;
     width: 50px;
     height: 50px;
-
 }
 
 .expertise__item--desigh::before {
@@ -299,15 +294,12 @@ body {
     background-repeat: no-repeat;
     background-size: 45%;
     background-position: left 70%;
-
-
 }
 
 .magic__inner {
     max-width: 470px;
     margin-left: auto;
     padding: 100px 0 190px;
-
 }
 
 .magic__title {
@@ -421,7 +413,6 @@ body {
     font-size: 18px;
     line-height: 36px;
     color: #242121;
-
 }
 
 .blockquote__author {
@@ -471,7 +462,6 @@ body {
 .slider-blog {
     background: #f8f6f2;
     padding: 115px 0;
-
 }
 
 .slider-blog__item {
@@ -540,7 +530,6 @@ body {
 
 .team {
     padding: 120px 0 130px;
-
 }
 
 .team__title {
@@ -560,7 +549,6 @@ body {
     font-size: 14px;
     line-height: 17px;
     color: #333;
-
 }
 
 .team__position {
@@ -573,7 +561,6 @@ body {
 .pricing {
     background-color: #f6f8fa;
     padding: 145px 0 160px;
-
 }
 
 .pricing__title {
@@ -595,40 +582,48 @@ ul.pricing__item {
 
 
 .pricing__item li {
-   font-weight: 300;
-   font-size: 16px;
-   line-height: 22px;
-   color: #242121;
-   margin-bottom: 30px; 
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 30px;
 }
 
-.pricing__item .pricing__item-name{
+.pricing__item .pricing__item-name {
     text-align: left;
     font-weight: bold;
     margin-left: 20px;
 }
 
-.pricing__item .pricing__item-num{
+.pricing__item .pricing__item-num {
     font-size: 80px;
     line-height: 109px;
     margin-bottom: 50px;
 }
 
-.pricing__item-num sup{
+.pricing__item-num sup {
     font-size: 40px;
     line-height: 54px;
-
 }
 
-.pricing__item-link{
-margin-top: 70px;
-display: block;
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 17px;
-letter-spacing: 1.2px;
-color: #242121;
+.pricing__item-link {
+    margin-top: 70px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+    color: #242121;
+}
 
+.clients{
+    padding: 70px 0 95px;
+}
+
+.clients__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
